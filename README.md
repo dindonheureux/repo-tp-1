@@ -34,3 +34,9 @@ ssh -T git@github.com	Teste l’authentification SSH
 main : branche stable (production)
 develop : branche de développement
 Une modification est faite sur la branch develop , elle est envoyée vers GITHUB, puis, nous mergeons la branch main avec la branch develop 
+
+main
+ └── develop
+      ├── commit (création fichiers)
+      ├── commit (README + modifications)
+      └── merge → main
