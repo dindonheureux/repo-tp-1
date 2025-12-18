@@ -16,11 +16,9 @@ Ce projet a pour objectif de découvrir et pratiquer les bases de Git et GitHub 
 
 # Télécharger Git depuis le site officiel
 https://git-scm.com/downloads
-
-#executer le .exe
+executer le .exe
 
 #Commandes utilisées 
-
 git init	Initialise un dépôt Git local
 git status	Affiche l’état des fichiers
 git add .	Ajoute tous les fichiers à l’index
@@ -35,5 +33,4 @@ ssh -T git@github.com	Teste l’authentification SSH
 #Workflow
 main : branche stable (production)
 develop : branche de développement
-
 Une modification est faite sur la branch develop , elle est envoyée vers GITHUB, puis, nous mergeons la branch main avec la branch develop 
